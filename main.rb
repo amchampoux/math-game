@@ -1,3 +1,6 @@
-require './Match.rb'
-require './Player.rb'
-require './Question.rb'
+require './Match'
+require './Player'
+require './Question'
+
+match = Match.new
+match.play
